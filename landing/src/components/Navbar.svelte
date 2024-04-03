@@ -42,6 +42,11 @@
 
     <div class="absolute right-5 flex gap-5">
         <ThemeSelect size={'10'} />
-        <button class="btn btn-primary rounded-3xl text-xl">Signup</button>
+        <a 
+            class="btn btn-primary rounded-3xl text-xl"
+            href="https://chat.bradleygilden.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+        >Signup</a>
     </div>
 </div>

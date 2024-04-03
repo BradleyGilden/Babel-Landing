@@ -11,7 +11,7 @@
     gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 </script>
 
-<main class="">
+<main class="selection:bg-primary selection:text-base-100">
     <Guide />
     <div class="flex flex-col relative h-screen">
         <img
@@ -22,8 +22,11 @@
         <Navbar />
         <Quotes />
     </div>
-    <div class="h-screen flex gap-5">
+    <div id="section1" class="h-screen flex gap-5">
         <About />
+    </div>
+    <div class="h-screen flex gap-5 bg-base-300">
+        hey
     </div>
 </main>
 

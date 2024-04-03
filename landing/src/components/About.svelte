@@ -1,5 +1,22 @@
 <script>
+    import gsap from "gsap";
     import ChatBubble from "./ChatBubble.svelte";
+    import { onMount } from "svelte";
+
+    onMount(() => {
+        gsap.from('.chat', {
+            y: '-100vw',
+            stagger: 1,
+            duration: 8,
+            ease: 'power2',
+            scrollTrigger: {
+                trigger: '#section1',
+                scrub: 1,
+                toggleActions: 'play pause resume reset',
+                pin: true,
+            }
+        })
+    })
 </script>
 
 <div id="about" class="w-1/2 items-center flex flex-col">

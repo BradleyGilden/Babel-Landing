@@ -18,7 +18,7 @@
         })
         tl.to('.quote1',
         {
-            duration: 5,
+            duration: 3,
             ease: 'power1.out',
             yoyo: true,
             opacity: 1,
@@ -27,7 +27,7 @@
         });
         tl.to('.quote2',
         {
-            duration: 5,
+            duration: 3,
             ease: 'power1.out',
             yoyo: true,
             opacity: 1,
@@ -36,7 +36,7 @@
         });
         tl.to('.quote3',
         {
-            duration: 5,
+            duration: 3,
             ease: 'power1.out',
             yoyo: true,
             opacity: 1,
