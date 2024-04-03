@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         mserrat: ["Montserrat", "Inter", "sans-serif"],
+        garamond: ["'EB Garamond'", "Inter", "sans-serif"]
       },
       backgroundImage: {},
     },
