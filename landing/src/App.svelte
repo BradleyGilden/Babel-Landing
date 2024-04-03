@@ -3,6 +3,9 @@
     import Quotes from "./components/Quotes.svelte";
     import About from "./components/About.svelte";
     import Guide from "./components/Guide.svelte";
+    import Pricing from "./components/Pricing.svelte";
+    import Features from "./components/Features.svelte";
+
     import { gsap } from "gsap";
 
     import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -25,8 +28,9 @@
     <div id="section1" class="h-screen flex gap-5">
         <About />
     </div>
-    <div class="h-screen flex gap-5 bg-base-300">
-        hey
+    <div id="section2" class="h-screen flex bg-base-300 overflow-x-hidden">
+        <Pricing />
+        <Features />
     </div>
 </main>
 

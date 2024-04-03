@@ -5,7 +5,7 @@
 
     onMount(() => {
         gsap.from('.chat', {
-            y: '-100vw',
+            y: '-200vh',
             stagger: 1,
             duration: 8,
             ease: 'power2',
