@@ -39,4 +39,6 @@
             :)
         </p>
     </div>
+
+    <img id="qr-code" class="w-[10rem] h-[10rem] mx-auto mt-10" src="/coffee.png" alt="buy me a coffee" />
 </div>

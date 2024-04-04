@@ -31,15 +31,25 @@
             on:click={() => {gsap.to(window, { duration: 1, scrollTo: '#features' })}}
             >Features</button
         >
-        <button class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
-            >Blog</button
-        >
-        <button class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://comascript.hashnode.dev"
+            class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
+            >Blog
+        </a>
+        <button
+            class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
+            on:click={() => {gsap.to(window, { duration: 1, scrollTo: '#qr-code' })}}
             >Pricing</button
         >
-        <button class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
-            >Contact</button
-        >
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/bradley-gilden"
+            class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
+            >Contact
+        </a>
     </div>
 
     <div class="absolute right-5 flex gap-5">
