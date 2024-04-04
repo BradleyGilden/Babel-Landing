@@ -5,7 +5,7 @@
     onMount(() => {
         gsap.to("#features", {
             x: "-200vw",
-            duration: 8,
+            duration: 3,
             ease: "power2",
             delay: 0.5,
             scrollTrigger: {
@@ -19,7 +19,6 @@
                     duration: 0.8,
                     delay: 0.1,
                     ease: "power1.inOut",
-                    inertia: false,
                 },
             },
         });
