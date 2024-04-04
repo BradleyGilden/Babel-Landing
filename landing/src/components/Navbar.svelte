@@ -26,7 +26,9 @@
             on:click={() => {gsap.to(window, { duration: 1, scrollTo: '#about' })}}
             >About</button
         >
-        <button class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
+        <button
+            class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
+            on:click={() => {gsap.to(window, { duration: 1, scrollTo: '#features' })}}
             >Features</button
         >
         <button class="hover:btn hover:bg-base-300 rounded-3xl transition-all"
